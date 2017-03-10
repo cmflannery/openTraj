@@ -1,0 +1,9 @@
+subscript b,Geopotential altitude above MSL (m),Geopotential altitude above MSL (ft),Static Pressure (Pascals),Static Pressure (inHg),Standard Temperature (K),Temperature Lapse Rate (K/m),Temperature Lapse Rate (K/ft)
+i,h(m),h(ft),P(Pascal),P(inHg),T(K),dT(K/m),dT(K/ft)
+0.00,0.00,0.00,101325.00,29.92,288.15,-0.01,0.00
+1.00,11000.00,36089.00,22632.10,6.68,216.65,0.00,0.00
+2.00,20000.00,65617.00,5474.89,1.62,216.65,0.00,0.00
+3.00,32000.00,104987.00,868.02,0.26,228.65,0.00,0.00
+4.00,47000.00,154199.00,110.91,0.03,270.65,0.00,0.00
+5.00,51000.00,167323.00,66.94,0.02,270.65,0.00,0.00
+6.00,71000.00,232940.00,3.96,0.00,214.65,0.00,0.00
