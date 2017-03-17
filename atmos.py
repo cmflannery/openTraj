@@ -63,11 +63,13 @@ def calc_pressure(alt):
 
     sigma = delta/theta  # ratio of density to sea-level density
 
+    print(delta*14.7)  # pressure at altitude in psi
+
     return (sigma, delta, theta)
 
 
 def test_calc_pressure():
-    print(calc_pressure(4000))
+    print(calc_pressure(629.70))
     print(calc_pressure(30000))
 
 
