@@ -15,6 +15,8 @@ __email__ = "cmflannery@ucsd.edu"
 __status__ = "Development"
 
 
+DEBUG = False
+
 def calc_pressure(alt):
     # ============================================================================
     # LOCAL CONSTANTS
@@ -63,8 +65,6 @@ def calc_pressure(alt):
 
     sigma = delta/theta  # ratio of density to sea-level density
 
-    print(delta*14.7)  # pressure at altitude in psi
-
     return (sigma, delta, theta)
 
 
@@ -78,4 +78,5 @@ if __name__ == '__main__':
         subprocess.call('clear')
     except OSError:
         subprocess.call('cls', shell=True)
-    test_calc_pressure()
+    if DEBUG:
+        test_calc_pressure()
